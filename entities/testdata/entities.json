@@ -1,0 +1,42 @@
+{
+    "hashtags": [
+        {
+            "text": "Hashtag 1 Lorum ipsum"
+        },
+        {
+            "text": "Hashtag 2 Lorum ipsum"
+        }
+    ],
+    "symbols": [
+        {
+            "text": "Symbol 1 Lorum ipsum"
+        },
+        {
+            "text": "Symbol 2 Lorum ipsum"
+        }
+    ],
+    "user_mentions": [
+        {
+            "screen_name": "User Mention 1 Screen Name",
+            "name": "User Mention 1 Just Name",
+            "id_str": "User Mention 1 Id as string"
+        },
+        {
+            "screen_name": "User Mention 2 Screen Name",
+            "name": "User Mention 2 Just Name",
+            "id_str": "User Mention 2 Id as string"
+        }
+    ],
+    "urls": [
+        {
+            "url":"http://www.example.com/1",
+            "expanded_url": "http://www.example.com/expanded_url/1",
+            "display_url": "http://www.example.com/display_url/1"
+        },
+        {
+            "url":"http://www.example.com/2",
+            "expanded_url": "http://www.example.com/expanded_url/2",
+            "display_url": "http://www.example.com/display_url/2"
+        }
+    ]
+}
