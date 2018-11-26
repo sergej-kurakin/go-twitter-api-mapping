@@ -1,5 +1,5 @@
 package entities
 
-type HashTags struct {
+type HashTag struct {
 	Text string `json:"text"`
 }

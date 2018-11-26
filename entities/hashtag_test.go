@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-var initialHashTag = HashTags{
+var initialHashTag = HashTag{
 	Text: "Lorum ipsum",
 }
 
@@ -19,11 +19,11 @@ func TestItUnmarshalsHashTagJson(t *testing.T) {
 		panic(err)
 	}
 
-	var hashTags HashTags
+	var hashTag HashTag
 
-	json.Unmarshal(data, &hashTags)
+	json.Unmarshal(data, &hashTag)
 
-	assertHashTags(t, initialHashTag, hashTags)
+	assertHashTag(t, initialHashTag, hashTag)
 }
 
 func TestItMarshalsHashTagJson(t *testing.T) {
@@ -44,14 +44,14 @@ func TestItMarshalsHashTagJson(t *testing.T) {
 		panic(err)
 	}
 
-	var hashTags HashTags
+	var hashTag HashTag
 
-	json.Unmarshal(data, &hashTags)
+	json.Unmarshal(data, &hashTag)
 
-	assertHashTags(t, initialHashTag, hashTags)
+	assertHashTag(t, initialHashTag, hashTag)
 }
 
-func assertHashTags(t *testing.T, initialHashTag HashTags, hashtag HashTags) {
+func assertHashTag(t *testing.T, initialHashTag HashTag, hashtag HashTag) {
 	if hashtag.Text != initialHashTag.Text {
 		t.Error("Text expected", initialHashTag.Text, "got", hashtag.Text)
 	}
