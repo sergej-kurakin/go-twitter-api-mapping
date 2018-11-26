@@ -1,5 +1,5 @@
 package entities
 
-type Symbols struct {
+type Symbol struct {
 	Text string `json:"text"`
 }
