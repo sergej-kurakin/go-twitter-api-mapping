@@ -1,0 +1,10 @@
+{
+    "events": [
+        {
+            "id": "123",
+            "type": "eventType",
+            "created_timestamp": "4500"
+        }
+    ],
+    "next_cursor": "SomeCursor"
+}
