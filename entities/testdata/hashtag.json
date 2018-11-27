@@ -1,3 +1,7 @@
 {
-    "text": "Lorum ipsum"
+    "text": "Lorum ipsum",
+    "indices": [
+        59,
+        67
+    ]
 }
