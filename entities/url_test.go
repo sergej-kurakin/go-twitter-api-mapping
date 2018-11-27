@@ -9,8 +9,8 @@ import (
 
 var initialURL = URL{
 	URL:         "http://www.example.com/",
-	DisplayURL:  "http://www.example.com/",
-	ExpandedURL: "http://www.example.com/",
+	DisplayURL:  "http://www.example.com/display_url/",
+	ExpandedURL: "http://www.example.com/expanded_url/",
 }
 
 func TestItUnmarshalsUrlJson(t *testing.T) {
@@ -58,11 +58,11 @@ func assertURL(t *testing.T, initialURL URL, url URL) {
 		t.Error("URL expected", initialURL.URL, "got", url.URL)
 	}
 
-	if url.URL != initialURL.DisplayURL {
+	if url.DisplayURL != initialURL.DisplayURL {
 		t.Error("DisplayURL expected", initialURL.DisplayURL, "got", url.DisplayURL)
 	}
 
-	if url.URL != initialURL.ExpandedURL {
+	if url.ExpandedURL != initialURL.ExpandedURL {
 		t.Error("ExpandedURL expected", initialURL.ExpandedURL, "got", url.ExpandedURL)
 	}
 }
