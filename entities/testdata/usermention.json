@@ -1,5 +1,10 @@
 {
     "screen_name": "Screen Name",
     "name": "Just Name",
-    "id_str": "Id as string"
+    "id": 45671,
+    "id_str": "45671",
+    "indices": [
+        4,
+        15
+    ]
 }

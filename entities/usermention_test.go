@@ -10,7 +10,8 @@ import (
 var initialUserMention = UserMention{
 	ScreenName: "Screen Name",
 	Name:       "Just Name",
-	ID:         "Id as string",
+	IDStr:      "45671",
+	ID:         45671,
 }
 
 func TestItUnmarshalsUserMentionJson(t *testing.T) {
