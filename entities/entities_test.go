@@ -77,12 +77,14 @@ func createInitialEntities() Entities {
 			{
 				ScreenName: "User Mention 1 Screen Name",
 				Name:       "User Mention 1 Just Name",
-				ID:         "User Mention 1 Id as string",
+				IDStr:      "14568",
+				ID:         14568,
 			},
 			{
 				ScreenName: "User Mention 2 Screen Name",
 				Name:       "User Mention 2 Just Name",
-				ID:         "User Mention 2 Id as string",
+				IDStr:      "14569",
+				ID:         14569,
 			},
 		},
 		Urls: []URL{
