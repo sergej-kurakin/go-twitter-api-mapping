@@ -1,0 +1,58 @@
+{
+    "type": "AttachmentType",
+    "media": {
+        "id": 12345,
+        "id_str": "12345",
+        "media_url": "http://www.example.com/media_url",
+        "media_url_https": "https://www.example.com/media_url",
+        "url": "http://example.com/",
+        "display_url": "www.example.com/display_url",
+        "expanded_url": "https://www.example.com/expanded_url",
+        "type": "MediaType",
+        "sizes": {
+            "medium": {
+                "w": 500,
+                "h": 500,
+                "resize": "mediumResize"
+            },
+            "thumb":{
+                "w": 150,
+                "h": 150,
+                "resize": "thumbResize"
+            },
+            "small":{
+                "w": 300,
+                "h": 300,
+                "resize": "smallResize"
+            },
+            "large":{
+                "w": 500,
+                "h": 500,
+                "resize": "largeResize"
+            }
+        },
+        "indices": [
+            15,
+            35
+        ],
+        "video_info": {
+            "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 10704,
+              "variants": [
+                    {
+                        "content_type": "video/mp4-1",
+                        "url": "http://example.com/video1",
+                        "bitrate": 320000
+                    },
+                    {
+                        "content_type": "video/mp4-2",
+                        "url": "http://example.com/video2",
+                        "bitrate": 2176000
+                    }
+              ]
+        }
+    }
+}
