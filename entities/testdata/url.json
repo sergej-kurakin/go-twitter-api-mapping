@@ -1,5 +1,9 @@
 {
     "url":"http://www.example.com/",
     "expanded_url": "http://www.example.com/expanded_url/",
-    "display_url": "http://www.example.com/display_url/"
+    "display_url": "http://www.example.com/display_url/",
+    "indices": [
+        35,
+        58
+    ]
 }
