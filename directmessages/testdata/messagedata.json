@@ -1,0 +1,7 @@
+{
+    "text": "Message Text",
+    "entities": {},
+    "attachment": {
+        "type": "AttachmentType"
+    }
+}
