@@ -1,0 +1,9 @@
+{
+    "target": {
+        "recipient_id": "RecipientId"
+    },
+    "sender_id": "SenderId",
+    "message_data": {
+        "text": "Some Text"
+    }
+}
